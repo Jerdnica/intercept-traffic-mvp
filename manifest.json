@@ -1,0 +1,19 @@
+{
+  "name": "Traffic interceptor MVP",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for intercepting requests.",
+  "icons": {
+    "128": "icons/buydoge.png"
+  },
+  "browser_action": {
+    "default_popup": "src/ui/popup.html",
+    "default_icon": {
+      "16": "icons/buydoge.png"
+    }
+  },
+  "background": {
+    "page": "src/background/background.html"
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "manifest_version": 2
+}
